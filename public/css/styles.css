@@ -1,0 +1,78 @@
+/***********************BODY CSS******************************/
+p{
+  line-height: 2;
+}
+
+li{
+  line-height: 3;
+}
+
+h3{
+  padding: 15px 0px;
+  color: #89898B;
+  font-weight: 300;
+}
+
+h5{
+  padding: 15px 0px;
+  padding-left: 50px;
+}
+
+.container {
+  max-width: 70%;
+}
+/***********************IMG OVERLAY******************************/
+
+.img-container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.img-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/***********************COLOUR******************************/
+
+.gr-bg-col {
+  background-color: #F3FFF8;
+}
+
+.ty-bg-col {
+  background-color: #d3ebf5;
+}
+
+.lz-bg-col {
+  background-color: #FCECEB;
+}

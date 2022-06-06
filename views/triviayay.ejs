@@ -1,0 +1,143 @@
+<%- include("partials/header"); -%>
+<!--- FIRST DIV --->
+<div class="">
+  <div class="container py-3">
+    <h1>Triviayay</h1>
+    <div class="row row-cols-lg-2 row-cols-sm-1">
+      <div class="col">
+        <h3>Overview</h3>
+        <p>Triviayay is an arcade-style trivia game that relies on the use of an arduino uno and an RFID system as its underlying technology.</p>
+        <p>This project was part of physical prototyping interaction course during my 2020 Spring session. It was done with a group 7 people; 4 researchers, 2 product designers and 1 programmer - which I volunteered to conduct.</p>
+      </div>
+      <div class="col">
+        <h3>Role</h3>
+        <p>Front-end & Back-end Development, Visual Design, Hardware Research, Prototyping.</p>
+        <h3>Duration</h3>
+        <p>February - May 2021 (12 Weeks).</p>
+      </div>
+      <div class="col">
+        <a href="https://youtu.be/gzr0g7v8kSM"><button type="button" class="btn btn-dark btn-lg">Product Demo</button></a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="py-3">
+    <img src="/image/trivia_prototype.png" class="img-fluid rounded px-5 py-3" alt="...">
+  </div>
+</div>
+
+<!--- SECOND DIV --->
+<div class="">
+  <div class="container py-3">
+    <h3>Aims</h3>
+    <p>The design of this game was targeted towards young and the adult demographic. Its aim was to create a new learning experience by enhancing the user engagement by abandoning the general method of reading paper-based textbooks.</p>
+    <p>Specific aims include:</p>
+    <ul>
+      <li>To assess whether the design enhances enjoyment for the player.</li>
+      <li>To assess whether the design encourages learning.</li>
+    </ul>
+
+  </div>
+</div>
+
+<!--- THIRD DIV --->
+<div class="ty-bg-col">
+  <div class="container py-3">
+    <h3>Materials</h3>
+    <p>Materials incorporated in the system</p>
+    <ul>
+      <li>Laptop</li>
+      <li>RFID reader</li>
+      <li>4 RFID Tags</li>
+      <li>Arduino Uno</li>
+      <li>Buttons</li>
+      <li>LED</li>
+      <li>Buzzer</li>
+      <li>Pin headers</li>
+    </ul>
+  </div>
+</div>
+
+<!--- FOURTH DIV --->
+<div class="">
+  <div class="container py-3">
+    <h3>Initial Development & Design</h3>
+    <p>In the early stages, Arduino IDE and Processing IDE was chosen for this project as both softwares offers easy integration between one another.</p>
+    <img src="/image/systemdiagram.png" class="img-fluid mx-auto d-block rounded py-3" alt="...">
+    <h5>Triviayay 1.0</h5>
+    <div class="row justify-content-md-center py-3">
+      <div class="col col-lg-2 col-sm-0">
+      </div>
+      <div class="col col-lg-8 col-sm-12">
+        <img src="/image/triviayay1.jpeg" class="img-fluid mx-auto d-block m-auto w-75" alt="...">
+      </div>
+      <div class="col col-lg-2 col-sm-0">
+      </div>
+    </div>
+    <h5>Enclosure</h5>
+    <div class="row justify-content-md-center py-3">
+      <div class="col col-lg-4 col-sm-12">
+        <img src="/image/3dmodel.png" class="img-fluid mx-auto d-block m-auto" alt="...">
+      </div>
+      <div class="col col-lg-4 col-sm-12">
+        <img src="/image/cardboard1.jpeg" class="img-fluid mx-auto d-block m-auto" alt="...">
+      </div>
+      <div class="col col-lg-4 col-sm-12">
+        <img src="/image/cardboard2.jpeg" class="img-fluid mx-auto d-block m-auto" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--- FIFTH DIV --->
+
+<div class="ty-bg-col">
+  <div class="container py-3">
+    <h3>Design</h3>
+    <p>For the design, my group settled on a colourful scheme to give a playful and fun atmosphere.</p>
+    <h5>Home Screen</h5>
+    <p>This is the start page that contains an introduction for the player.</p>
+    <img src="/image/triviaD1.png" class="img-fluid mx-auto d-block m-auto" alt="...">
+    <h5>Gameplay</h5>
+    <p>Upon starting the game, questions will be loaded from an external API that is connected to an online trivia question database. The player will be given 10 seconds to answer the questin by tapping the RFID cards to the respective answer. Once
+      the player proceeds to the next question, the connection to the API will be refreshed and a new set of randomised question will be loaded.</p>
+    <img src="/image/triviaD2.gif" class="img-fluid mx-auto d-block m-auto" alt="...">
+    <h5>Final Enclosure Design</h5>
+    <p>This was designed using tinkercad in a retro styled arcade game machine used an inspiration.</p>
+    <div class="row row-cols-lg-2 row-cols-sm-1 m-auto">
+      <div class="col">
+        <img src="/image/triviaD3.png" class="img-fluid mx-auto d-block" alt="...">
+      </div>
+      <div class="col">
+        <img src="/image/triviaD4.png" class="img-fluid mx-auto d-block" alt="...">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--- SIXTH DIV --->
+<div id="scroll-target" class="">
+  <div class="container py-3">
+    <h3>Product Demonstration</h3>
+    <p>This video illustrates how the protoype functions and explains it’s uses when a user interacts with it.</p>
+    <div class="ratio ratio-16x9">
+      <iframe src="https://www.youtube.com/embed/gzr0g7v8kSM" title="YouTube video" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+<!--- SEVENTH DIV --->
+<div class="ty-bg-col">
+  <div class="container py-3">
+    <h3>Feedbacks</h3>
+    <p>During the prototype testing, a total of 6 individuals took part in the test. Several interesting key findings were:</p>
+    <ul>
+      <li>Having a limited sets of question would be preferable rather than the infinite amount of questions being generated with no ‘game over’.</li>
+      <li>Provide option to set difficulties as some players found that the questions given were somewhat difficult.</li>
+    </ul>
+  </div>
+</div>
+
+<%- include("partials/footer"); -%>
